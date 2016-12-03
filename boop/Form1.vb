@@ -7,7 +7,7 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BOOPbutton.Click
-        My.Computer.Audio.Play("boop.wav", AudioPlayMode.BackgroundLoop)
+        My.Computer.Audio.Play(My.Resources.boop, AudioPlayMode.BackgroundLoop)
         Me.Hide()
         BOOP1.Show()
     End Sub
