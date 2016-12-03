@@ -1,7 +1,7 @@
 ﻿Public Class BOOP1
     Private Sub Form2()
         Me.Hide()
-        My.Computer.Audio.Play("boop.wav", AudioPlayMode.BackgroundLoop)
+        My.Computer.Audio.Play(My.Resources.boop, AudioPlayMode.BackgroundLoop)
         Dim BOOP As New BOOP
         BOOP.Show()
     End Sub
